@@ -1,0 +1,492 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Nathalie Gonzalez Chamorro, Thérapeute & énergéticienne. Je tiens un cabinet de Naturopathie basé à Cholet, au 102 Boulevard Guy Chouteau."
+    />
+
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+
+    <link rel="icon" href="/images/logo.png" type="image/x-icon" />
+    <link rel="stylesheet" href="/css/general.css" />
+    <link rel="stylesheet" href="/css/style.css" />
+    <link rel="stylesheet" href="/css/queries.css" />
+
+    <title>Naturopathie - Nathalie Gonzalez Chamorro</title>
+  </head>
+  <body>
+    <header class="header">
+      <div class="logo">
+        <a href="#"><img src="/images/logo.png" alt="logo" /></a>
+        <a href="#">
+          Naturopathie
+          <div class="divider-2 divider--logo"></div>
+          <span class="ville">Cholet</span>
+        </a>
+      </div>
+
+      <nav class="navbar">
+        <ul class="navbar-list">
+          <a class="navbar-link" href="#"><li>Accueil</li></a>
+          <li class="dropdown-link navbar-link">
+            <p class="about-link">
+              A propos <ion-icon name="chevron-down-sharp"></ion-icon>
+            </p>
+            <ul
+              class="dropdown dropdown--margin-top dropdown--margin-top-about"
+            >
+              <li>
+                <a href="#presentation">Qui suis-je ?</a>
+              </li>
+              <li><a href="#">Mes formations</a></li>
+            </ul>
+          </li>
+          <a class="navbar-link" href=""><li>Naturopathie</li></a>
+          <li class="dropdown-link navbar-link">
+            <p class="services-link">
+              Prestations <ion-icon name="chevron-down-sharp"></ion-icon>
+            </p>
+            <ul class="dropdown dropdown--margin-top-services">
+              <li><a href="#">Naturopathie</a></li>
+              <li><a href="#">Raiki</a></li>
+              <li><a href="#">Tarifs</a></li>
+            </ul>
+          </li>
+          <a class="navbar-link btn btn--contact" href="#cta"
+            ><li>Contact</li></a
+          >
+        </ul>
+      </nav>
+
+      <button class="btn-mobile-nav">
+        <ion-icon class="icon-mobile-nav" name="menu-outline"></ion-icon>
+
+        <ion-icon class="icon-mobile-nav" name="close-outline"></ion-icon>
+      </button>
+    </header>
+
+    <main>
+      <section class="section-hero">
+        <div class="hero">
+          <div class="hero-text-box">
+            <h1 class="heading-primary">Nathalie Gonzalez Chamorro</h1>
+            <p class="hero-job">Thérapeute & énergéticienne</p>
+            <blockquote class="quote">
+              <p>
+                Le médecin du futur ne donnera pas de médicaments. Il formera
+                ses patients à prendre soin de leurs corps, à la nutrition, aux
+                causes et à la prévention des maladies.
+              </p>
+            </blockquote>
+            <figcaption class="figcaption">&mdash; Thomas Edison</figcaption>
+
+            <div class="button-box">
+              <a class="btn btn--rdv" href="#rdv">Prendre rendez-vous</a>
+              <a class="btn btn--plus" href="#step"
+                >En savoir plus <ion-icon name="arrow-down-sharp"></ion-icon
+              ></a>
+            </div>
+          </div>
+
+          <div class="hero-img-box">
+            <picture>
+              <source srcset="/images/hero-img.webp" type="image/webp" />
+              <source srcset="/images/hero-img.png" type="image/png" />
+
+              <img
+                src="/images/hero-img.webp"
+                class="hero-img"
+                alt="3 images de Naturopathie (huiles essentielles, soins, nourriture saine."
+              />
+            </picture>
+          </div>
+        </div>
+      </section>
+
+      <section id="step" class="section-step">
+        <div class="container flex-heading">
+          <p class="step-heading">Vers un mode de vie plus sain.</p>
+          <div class="divider"></div>
+        </div>
+
+        <div class="container grid grid--2-cols grid--center-v grid--row-gap">
+          <div class="step-text-box">
+            <div class="step-box-heading">
+              <h3 class="heading-tertiary">L'alimentation</h3>
+              <ion-icon name="nutrition"></ion-icon>
+            </div>
+            <p class="step-description">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Id,
+              aliquid nam. Minus, corporis? Quae, maiores consequatur fuga
+              aspernatur enim ratione.
+            </p>
+          </div>
+          <div class="step-img-box">
+            <img
+              class="step-img"
+              src="/images/alimentation.webp"
+              alt="illustration alimentation"
+            />
+          </div>
+
+          <div class="step-img-box color">
+            <img
+              class="step-img"
+              src="/images/meditation.png"
+              alt="illustration meditation"
+            />
+          </div>
+          <div class="step-text-box">
+            <div class="step-box-heading">
+              <h3 class="heading-tertiary">La sérénité</h3>
+              <ion-icon name="leaf"></ion-icon>
+            </div>
+            <p class="step-description">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Id,
+              aliquid nam. Minus, corporis? Quae, maiores consequatur fuga
+              aspernatur enim ratione.
+            </p>
+          </div>
+
+          <div class="step-text-box">
+            <div class="step-box-heading">
+              <h3 class="heading-tertiary">L'activité</h3>
+              <ion-icon name="barbell"></ion-icon>
+            </div>
+
+            <p class="step-description">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Id,
+              aliquid nam. Minus, corporis? Quae, maiores consequatur fuga
+              aspernatur enim ratione.
+            </p>
+          </div>
+          <div class="step-img-box">
+            <img
+              class="step-img"
+              src="/images/active.webp"
+              alt="illustration activité"
+            />
+          </div>
+        </div>
+      </section>
+
+      <section
+        id="presentation"
+        class="section-presentation container-presentation"
+      >
+        <div class="box-heading-presentation">
+          <h2 class="heading-secondary">Qui suis-je ?</h2>
+        </div>
+        <div class="grid-presentation">
+          <div class="presentation-carousel-box">
+            <div class="nom-img-box">
+              <h4 class="heading-quaternary margin-bottom">
+                Nathalie Gonzalez Chamorro
+              </h4>
+              <!-- <img
+                class="ma-photo"
+                src="/images/nathalie-gonzalez-chamorro.png"
+                alt="Photo de Nathalie Gonzalez Chamorro"
+              /> -->
+            </div>
+
+            <div class="carousel">
+              <div class="carousel-item">
+                <div class="carousel-text-img-box">
+                  <div class="carousel-img-1" role="img" aria-label=""></div>
+                  <p class="carousel-text">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Voluptate odit accusantium quos quibusdam ducimus ad
+                    distinctio culpa maiores ex nisi iusto quo beatae eius vero
+                    eaque dolores, totam necessitatibus? Velit illum dignissimos
+                    consequatur pariatur enim rem, repudiandae sequi
+                    praesentium, nemo optio error soluta laboriosam? Voluptatem
+                    similique assumenda possimus deleniti explicabo id
+                    distinctio mollitia rem dolorem aspernatur! Consequatur
+                    accusamus laudantium nisi sequi eius, dignissimos ducimus
+                    harum vitae dicta doloribus expedita quaerat dolorem nostrum
+                    ut debitis facere placeat magni eum perferendis nulla
+                    veritatis, modi quod veniam rem. Reprehenderit, hic quaerat.
+                    Ipsum ipsa amet molestiae! Autem fuga ratione, ab maiores
+                    recusandae magnam tempore totam doloremque provident beatae
+                    ipsum repudiandae sunt dolorem, in explicabo blanditiis nam.
+                    Asperiores dolorum aperiam doloribus cum autem at, veniam
+                    unde libero debitis minima, non velit ipsa explicabo quam
+                    repellendus nisi dolorem distinctio modi optio neque
+                  </p>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <div class="carousel-text-img-box">
+                  <div class="carousel-img-2" role="img" aria-label=""></div>
+                  <p class="carousel-text">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Voluptate odit accusantium quos quibusdam ducimus ad
+                    distinctio culpa maiores ex nisi iusto quo beatae eius vero
+                    eaque dolores, totam necessitatibus? Velit illum dignissimos
+                    consequatur pariatur enim rem, repudiandae sequi
+                    praesentium, nemo optio error soluta laboriosam? Voluptatem
+                    similique assumenda possimus deleniti explicabo id
+                    distinctio mollitia rem dolorem aspernatur! Consequatur
+                    accusamus laudantium nisi sequi eius, dignissimos ducimus
+                    harum vitae dicta doloribus expedita quaerat dolorem nostrum
+                    ut debitis facere placeat magni eum perferendis nulla
+                    veritatis, modi quod veniam rem. Reprehenderit, hic quaerat.
+                    Ipsum ipsa amet molestiae! Autem fuga ratione, ab maiores
+                    recusandae magnam tempore totam doloremque provident beatae
+                    ipsum repudiandae sunt dolorem, in explicabo blanditiis nam.
+                    Asperiores dolorum aperiam doloribus cum autem at, veniam
+                    unde libero debitis minima, non velit ipsa explicabo quam
+                    repellendus nisi dolorem distinctio modi optio neque
+                  </p>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <div class="carousel-text-img-box">
+                  <div class="carousel-img-3" role="img" aria-label=""></div>
+                  <p class="carousel-text">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Voluptate odit accusantium quos quibusdam ducimus ad
+                    distinctio culpa maiores ex nisi iusto quo beatae eius vero
+                    eaque dolores, totam necessitatibus? Velit illum dignissimos
+                    consequatur pariatur enim rem, repudiandae sequi
+                    praesentium, nemo optio error soluta laboriosam? Voluptatem
+                    similique assumenda possimus deleniti explicabo id
+                    distinctio mollitia rem dolorem aspernatur! Consequatur
+                    accusamus laudantium nisi sequi eius, dignissimos ducimus
+                    harum vitae dicta doloribus expedita quaerat dolorem nostrum
+                    ut debitis facere placeat magni eum perferendis nulla
+                    veritatis, modi quod veniam rem. Reprehenderit, hic quaerat.
+                    Ipsum ipsa amet molestiae! Autem fuga ratione, ab maiores
+                    recusandae magnam tempore totam doloremque provident beatae
+                    ipsum repudiandae sunt dolorem, in explicabo blanditiis nam.
+                    Asperiores dolorum aperiam doloribus cum autem at, veniam
+                    unde libero debitis minima, non velit ipsa explicabo quam
+                    repellendus nisi dolorem distinctio modi optio neque
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- FORMULAIRE RENDEZ-VOUS -->
+      <section class="section-rdv" id="rdv">
+        <div class="container">
+          <h2 class="heading-secondary text-center">
+            Formulaire de rendez-vous
+          </h2>
+        </div>
+        <div class="container container-rdv">
+          <div class="rdv">
+            <div class="rdv-text-box">
+              <h2 class="heading-secondary">
+                Prenez rendez-vous en quelques clics !
+              </h2>
+              <p class="rdv-text">
+                Gardez à l'esprit que je suis susceptible de vous contacter afin
+                de confirmer la date et l'heure du rendez-vous.
+              </p>
+
+              <form class="rdv-form" name="contact-me" action="">
+                <div class="rdv-form-box-1">
+                  <div>
+                    <label for="nom-complet">Nom</label>
+                    <input
+                      id="nom-complet"
+                      class="form-input"
+                      type="text"
+                      placeholder="Paul Loiselle"
+                      name="nom-complet"
+                      required
+                    />
+                  </div>
+
+                  <div>
+                    <label for="number">Numéro de contact</label>
+                    <input
+                      class="form-input"
+                      type="tel"
+                      name="number"
+                      id="number"
+                      placeholder="+33"
+                    />
+                  </div>
+
+                  <div>
+                    <label for="date">Date du rendez-vous</label>
+                    <input
+                      class="form-input"
+                      type="date"
+                      name="date"
+                      id="date"
+                    />
+                  </div>
+                  <div>
+                    <label for="heure">Entrez l'horaire souhaité</label>
+                    <input
+                      class="form-input"
+                      type="time"
+                      name="heure"
+                      id="heure"
+                    />
+                  </div>
+                </div>
+                <div class="rdv-form-box-2">
+                  <div class="box-checkbox">
+                    <input
+                      type="checkbox"
+                      name="check-terms"
+                      id="checkterms1"
+                      required
+                    />
+                    <label class="check-label-1" for="checkterms1"
+                      >J'accepte les termes et conditions d'utilisation.</label
+                    >
+                  </div>
+
+                  <button class="btn-form--rdv">
+                    Soumettre <ion-icon name="send-sharp"></ion-icon>
+                  </button>
+                </div>
+              </form>
+            </div>
+            <div class="rdv-img-box" role="img" aria-label="#"></div>
+          </div>
+        </div>
+      </section>
+      <!-- // FORMULAIRE RENDEZ-VOUS -->
+
+      <div class="divider-3"></div>
+
+      <!-- FORMULAIRE DE CONTACT -->
+      <section class="section-cta" id="cta">
+        <div class="container">
+          <h2 class="heading-secondary text-center">Formulaire de contact</h2>
+        </div>
+        <div class="container container-cta">
+          <div class="cta">
+            <div class="cta-text-box">
+              <h2 class="heading-secondary">
+                Contactez-moi pour plus d'informations !
+              </h2>
+              <p class="cta-text">
+                Cela me permettrait d'avoir plus de détails afin de mieux vous
+                aider et guider.
+              </p>
+
+              <form class="cta-form" name="contact-me" action="">
+                <div class="cta-form-box-1">
+                  <div>
+                    <label for="nom">Nom</label>
+                    <input
+                      class="form-input"
+                      id="nom"
+                      type="text"
+                      placeholder="Courtois"
+                      name="nom"
+                      required
+                    />
+                  </div>
+
+                  <div>
+                    <label for="prénom">Prénom</label>
+                    <input
+                      class="form-input"
+                      id="prénom"
+                      type="text"
+                      placeholder="Daniel"
+                      name="prénom"
+                      required
+                    />
+                  </div>
+
+                  <div>
+                    <label for="email">Adresse e-mail</label>
+                    <input
+                      class="form-input"
+                      id="email"
+                      type="email"
+                      placeholder="moi@exemple.com"
+                      name="email"
+                      required
+                    />
+                  </div>
+
+                  <div>
+                    <label for="select-how">Posez-moi une question</label>
+                    <select name="select-how" id="select-how" required>
+                      <option value="">Choisissez une option :</option>
+                      <option value="précision">Besoin de précision</option>
+                      <option value="tarifs">Quels sont les tarifs?</option>
+                      <option value="service">
+                        Quel service est le plus adapté pour moi?
+                      </option>
+                      <option value="autres">Autres</option>
+                    </select>
+                  </div>
+                </div>
+                <div class="cta-form-box-2">
+                  <div>
+                    <label for="message">Votre message</label>
+                    <textarea name="message" id="message" required></textarea>
+                  </div>
+
+                  <div class="box-checkbox">
+                    <input
+                      type="checkbox"
+                      name="check-terms"
+                      id="checkterms2"
+                      required
+                    />
+                    <label class="check-label-2" for="checkterms2"
+                      >J'accepte les termes et conditions d'utilisation.</label
+                    >
+                  </div>
+
+                  <button class="btn-form">
+                    Envoyer <ion-icon name="send-sharp"></ion-icon>
+                  </button>
+                </div>
+              </form>
+            </div>
+            <div class="cta-img-box" role="img" aria-label="#"></div>
+          </div>
+        </div>
+      </section>
+      <!-- // FORMULAIRE DE CONTACT -->
+    </main>
+
+    <footer>
+      <ul>
+        <a href="#"
+          ><li><ion-icon name="logo-facebook"></ion-icon></li
+        ></a>
+        <a href="#"
+          ><li><ion-icon name="logo-instagram"></ion-icon></li
+        ></a>
+        <a href="#"
+          ><li><ion-icon name="logo-pinterest"></ion-icon></li
+        ></a>
+      </ul>
+      <p>
+        Copyright <span class="copyright">&copy;</span>
+        <span class="year">2030</span>
+      </p>
+      <a href="#" target="_blank" class="mention"><p>Mentions légales</p></a>
+    </footer>
+    <script src="/js/app.js"></script>
+  </body>
+</html>
